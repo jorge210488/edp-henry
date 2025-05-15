@@ -24,6 +24,7 @@ The goal is to improve my understanding of:
 /contracts
 ├── SimpleStorage.sol       # A basic contract to store and read values
 ├── Primitives.sol          # Demonstrates basic Solidity types and defaults
+├── RegistroConAcceso.sol     # Access-controlled data storage with events
 ├── [More files coming soon...]
 ```
 
@@ -45,6 +46,14 @@ The goal is to improve my understanding of:
 - **Primitives.sol**
   Demonstrates Solidity's primitive types like bool, uint, int, address, and bytes.
   Shows default values and common sizes (uint8, uint256, int8, int256, etc.). Useful for understanding low-level data types in Solidity.
+- **RegistroConAcceso.sol**
+  Access-controlled data registry that allows only the owner to update the stored data.
+  Includes:
+  - A modifier to restrict actions to the contract owner.
+  - An event that logs old and new values when data changes.
+  - A counter to track how many times the data was updated.
+  - A function to transfer ownership.
+    This contract helps practice modifiers, events, and basic role-based access control in Solidity.
 
 More contracts will be added as I progress 📚
 

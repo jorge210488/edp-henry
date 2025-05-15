@@ -23,6 +23,7 @@ The goal is to improve my understanding of:
 ```
 /contracts
 ├── SimpleStorage.sol       # A basic contract to store and read values
+├── Primitives.sol          # Demonstrates basic Solidity types and defaults
 ├── [More files coming soon...]
 ```
 
@@ -41,6 +42,9 @@ The goal is to improve my understanding of:
 
 - **SimpleStorage.sol**  
   Stores a single `uint256` value. Includes a constructor, set and get functions.
+- **Primitives.sol**
+  Demonstrates Solidity's primitive types like bool, uint, int, address, and bytes.
+  Shows default values and common sizes (uint8, uint256, int8, int256, etc.). Useful for understanding low-level data types in Solidity.
 
 More contracts will be added as I progress 📚
 

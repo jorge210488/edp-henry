@@ -25,6 +25,7 @@ The goal is to improve my understanding of:
 ├── SimpleStorage.sol       # A basic contract to store and read values
 ├── Primitives.sol          # Demonstrates basic Solidity types and defaults
 ├── RegistroConAcceso.sol     # Access-controlled data storage with events
+├── SimpleBank.sol            # Basic banking system with user registration and treasury management
 ├── [More files coming soon...]
 ```
 
@@ -54,6 +55,14 @@ The goal is to improve my understanding of:
   - A counter to track how many times the data was updated.
   - A function to transfer ownership.
     This contract helps practice modifiers, events, and basic role-based access control in Solidity.
+- **SimpleBank.sol**
+  A basic banking smart contract that lets users register, deposit, withdraw ETH, and tracks a treasury balance.
+  Key features:
+  - User registration with name and balance.
+  - Deposit and withdrawal functions with a customizable fee (in basis points).
+  - Treasury logic to accumulate fees and allow the contract owner to withdraw funds.
+  - Events to track registrations, deposits, withdrawals, and treasury movements.
+    Excellent for learning about structs, mappings, modifiers, fee systems, and ETH transfers.
 
 More contracts will be added as I progress 📚
 

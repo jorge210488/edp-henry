@@ -63,6 +63,13 @@ The goal is to improve my understanding of:
   - Treasury logic to accumulate fees and allow the contract owner to withdraw funds.
   - Events to track registrations, deposits, withdrawals, and treasury movements.
     Excellent for learning about structs, mappings, modifiers, fee systems, and ETH transfers.
+- **JorgeToken.sol**
+  A basic ERC20 token using OpenZeppelin's contracts. Only the contract owner can mint new tokens.
+  Key features:
+  - Uses OpenZeppelin's ERC20 and Ownable for robust, secure implementation.
+  - Constructor assigns the initial owner and sets the name/symbol ("JorgeToken", "JAM").
+  - Includes a mint function restricted to the owner for controlled supply management.
+  - Great for understanding token standards, ownership, and OpenZeppelin integration.
 
 More contracts will be added as I progress 📚
 

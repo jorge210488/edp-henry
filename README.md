@@ -70,6 +70,13 @@ The goal is to improve my understanding of:
   - Constructor assigns the initial owner and sets the name/symbol ("JorgeToken", "JAM").
   - Includes a mint function restricted to the owner for controlled supply management.
   - Great for understanding token standards, ownership, and OpenZeppelin integration.
+- **DevHeroes.sol**
+  A simple ERC721 NFT contract using OpenZeppelin libraries. Only the owner can mint NFTs with custom URIs.
+  Key features:
+  - Inherits from ERC721, ERC721URIStorage, and Ownable.
+  - safeMint function that assigns a unique token ID and sets a metadata URI.
+  - Overrides tokenURI and supportsInterface to ensure proper behavior.
+  - Great for learning how to create, mint, and store NFT metadata using OpenZeppelin.
 
 More contracts will be added as I progress 📚
 

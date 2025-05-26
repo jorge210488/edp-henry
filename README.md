@@ -77,6 +77,14 @@ The goal is to improve my understanding of:
   - safeMint function that assigns a unique token ID and sets a metadata URI.
   - Overrides tokenURI and supportsInterface to ensure proper behavior.
   - Great for learning how to create, mint, and store NFT metadata using OpenZeppelin.
+- **AuctionPlatform.sol**
+  A decentralized auction system using custom ERC20 (`AuctionToken`) and ERC721 (`AuctionNFT`) contracts.
+  Key features:
+  - Sellers can list NFTs for auction with a deadline.
+  - Bidders use `AuctionToken` to place bids.
+  - Automatic refund to previous bidder when outbid.
+  - NFT is transferred to the winner and tokens to the seller.
+  - Demonstrates contract interoperability, ownership checks, and secure transfers.
 
 More contracts will be added as I progress 📚
 
